@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:id="@+id/relativvv"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/img_viewdetail"
+            android:layout_centerHorizontal="true"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/adi"/>
+
+        <TextView
+            android:id="@+id/tv_namalengkap"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/img_viewdetail"
+            android:layout_marginRight="10dp"
+            android:text="@string/nama_lengkap"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv_namalengkap2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_namalengkap"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/adi_winarno"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_namalengkap2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/alamat"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv_alamat2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alamat"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/perumahan_rajawali_city_no_26"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_bidang1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_alamat2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/bidang"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/tv_bidang2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_bidang1"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Android Developer"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sharingyuk</string>
+    <string name="nama_mentor">Nama Mentor</string>
+<!--    <string name="bidang">Bidang</string>-->
+    <string name="about">About</string>
+    <string name="adi_winarno">Adi Winarno</string>
+    <string name="adiwinarno860_gmail_com">adiwinarno860@gmail.com</string>
+    <string name="nama_lengkap">NAMA LENGKAP</string>
+    <string name="bidang">Bidang</string>
+    <string name="perumahan_rajawali_city_no_26">Perumahan Rajawali city No.26</string>
+    <string name="alamat2">Alamat</string>
+    <string name="pengenalan_android">Pengenalan Android</string>
+    <string name="rp_125_000">Rp.125.000</string>
+    <string name="rp_150_000">Rp.150.000</string>
+    <string name="sistem_belajar">Sistem Belajar dari kelas ini bisa via meet/zoom dan juga bisa request untuk private dengan belajar dirumah. Maksimal pertemuan Dari kelas ini adalah 12 Kali pertemuan</string>
+    <string name="_200_000">200.000</string>
+    <string name="sistem_belajar2">Sistem Belajar</string>
+    <string name="harga_kelas">Harga Kelas</string>
+    <string name="rp_200_000">Rp.200.000</string>
+    <string name="alamat">Alamat</string>
+</resources>
